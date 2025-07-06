@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MonksHub</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      header {
+        background: linear-gradient(50deg, #e0f4f4, #f7d8ec);
+        box-shadow: 1rem 2rem 9rem rgb(93, 130, 93);
+      }
+      .btn-template {
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 0.5rem 1.2rem;
+        font-weight: 500;
+      }
+      /* join section style */
+      .join-banner {
+        background: linear-gradient(50deg, #e0f4f4, #f7d8ec);
+        padding: 4rem 2rem;
+        border-radius: 10px;
+        text-align: center;
+        margin: 2rem auto;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+      }
+      .main-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        line-height: 1.2;
+      }
+
+      .sub-heading {
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+      }
+
+      .benefits {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+        line-height: 1.6;
+      }
+
+      .join-btn {
+        background-color: rgb(228, 199, 199);
+        color: #6e48aa;
+        font-weight: 600;
+        padding: 0.75rem 2.5rem;
+        border-radius: 50px;
+        font-size: 1.2rem;
+        border: none;
+        transition: all 0.3s ease;
+      }
+
+      .join-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-transparent py-3">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <img src="All images/logo.svg" alt="" />
+          </a>
+
+          <div class="collapse navbar-collapse">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-wrap gap-5 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Mentors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contact</a>
+              </li>
+            </ul>
+
+            <!-- Template Button (visible on lg and up) -->
+            <a href="#" class="btn btn-template ms-lg-5">
+              Get this template →
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="container py-5 position-relative">
+        <p class="text-muted mb-2">Home / Mentors</p>
+        <h1 class="display-4 fw-bold">
+          Meet Our Industry's<br />Leading Expert Mentors
+        </h1>
+      </section>
+    </header>
+
+    <!-- mentors section ----------------------------------------------------------------->
+    <section class="container py-5">
+      <div class="row g-5">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-5 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #fbeee5;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img1.png"
+                class="img-fluid"
+                alt="James Robert" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">James Robert</h5>
+              <p class="card-text text-muted">Project Manager</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-4 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #ccf1eb;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img2.png"
+                class="img-fluid"
+                alt="Brandon Michael" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Brandon Michael</h5>
+              <p class="card-text text-muted">Digital Marketer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-4 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #fff2cd;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img3.png"
+                class="img-fluid"
+                alt="Matthew John" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Matthew John</h5>
+              <p class="card-text text-muted">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-4 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #fad1e5;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img4.png"
+                class="img-fluid"
+                alt="Joseph Andrew" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Joseph Andrew</h5>
+              <p class="card-text text-muted">UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-5 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #a49751;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img5.png"
+                class="img-fluid"
+                alt="James Robert" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">James Robert</h5>
+              <p class="card-text text-muted">UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-5 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #e4cdbc;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img6.png"
+                class="img-fluid"
+                alt="Brandon Michael" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Brandon Michael</h5>
+              <p class="card-text text-muted">Digital Marketor</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 7 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-4 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #fff2cd;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img3.png"
+                class="img-fluid"
+                alt="Matthew John" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Matthew John</h5>
+              <p class="card-text text-muted">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 8-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-5 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #a49751;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img5.png"
+                class="img-fluid"
+                alt="James Robert" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">James Robert</h5>
+              <p class="card-text text-muted">UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 9-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-4 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #ccf1eb;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img2.png"
+                class="img-fluid"
+                alt="Brandon Michael" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Brandon Michael</h5>
+              <p class="card-text text-muted">Digital Marketer</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 10-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-5 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #fbeee5;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img1.png"
+                class="img-fluid"
+                alt="James Robert" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">James Robert</h5>
+              <p class="card-text text-muted">Project Manager</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 11 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-4 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #fff2cd;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img3.png"
+                class="img-fluid"
+                alt="Matthew John" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Matthew John</h5>
+              <p class="card-text text-muted">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 12 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0 text-center rounded-4 shadow-sm h-100">
+            <div
+              class="p-4"
+              style="
+                background-color: #fad1e5;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+              ">
+              <img
+                src="All images/img4.png"
+                class="img-fluid"
+                alt="Joseph Andrew" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-1">Joseph Andrew</h5>
+              <p class="card-text text-muted">UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- View more mentors btn -->
+      <div class="text-center">
+        <a href="#" class="btn btn-template mt-5"> View More Mentors → </a>
+      </div>
+    </section>
+    <!-- end of mentors section -->
+
+    <!-- all courses section -->
+    <section class="bg-light mt-2">
+      <!-- buttons sections -->
+      <div class="container">
+        <div class="text-center pt-5">
+          <h1>Explore Our All Courses</h1>
+        </div>
+        <div class="py-5 flex-wrap text-center">
+          <button type="button" class="btn btn-outline-success">
+            All categories
+          </button>
+          <button type="button" class="btn btn-outline-secondary">
+            Development
+          </button>
+          <button type="button" class="btn btn-outline-secondary">
+            UI/UX design
+          </button>
+          <button type="button" class="btn btn-outline-secondary">
+            Project manangement
+          </button>
+          <button type="button" class="btn btn-outline-secondary">
+            Accounting
+          </button>
+          <button type="button" class="btn btn-outline-secondary">
+            Marketing
+          </button>
+        </div>
+        <!--  -->
+        <section class="container py-5">
+          <div class="row g-4">
+            <!-- Course 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 rounded-4 shadow-sm h-100">
+                <img
+                  src="All images/cr1.png"
+                  class="card-img-top rounded-top-4"
+                  alt="Course 1" />
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2">
+                    <span
+                      class="badge bg-light text-dark px-3 py-1 rounded-pill"
+                      >Accounting</span
+                    >
+                    <span class="text-success fw-bold">$140.00</span>
+                  </div>
+                  <h5 class="fw-bold mb-3">Financial Accounting Essentials</h5>
+                  <div class="d-flex justify-content-between text-muted small">
+                    <p>2hr 35min</p>
+                    <p>20 lectures</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 rounded-4 shadow-sm h-100">
+                <img
+                  src="All images/cr2.png"
+                  class="card-img-top rounded-top-4"
+                  alt="Course 2" />
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2">
+                    <span
+                      class="badge bg-light text-dark px-3 py-1 rounded-pill"
+                      >UI/UX Design</span
+                    >
+                    <span class="text-success fw-bold">$150.00</span>
+                  </div>
+                  <h5 class="fw-bold mb-3">Introduction to Design Systems</h5>
+                  <div class="d-flex justify-content-between text-muted small">
+                    <p>3hr 35min</p>
+                    <p>25 lectures</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 rounded-4 shadow-sm h-100">
+                <img
+                  src="All images/cr3.png"
+                  class="card-img-top rounded-top-4"
+                  alt="Course 3" />
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2">
+                    <span
+                      class="badge bg-light text-dark px-3 py-1 rounded-pill"
+                      >Marketing</span
+                    >
+                    <span class="text-success fw-bold">$140.00</span>
+                  </div>
+                  <h5 class="fw-bold mb-3">Digital Marketing Strategy</h5>
+                  <div class="d-flex justify-content-between text-muted small">
+                    <p>2hr 35min</p>
+                    <p>20 lectures</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- course 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 rounded-4 shadow-sm h-100">
+                <img
+                  src="All images/cr4.png"
+                  class="card-img-top rounded-top-4"
+                  alt="Course 4" />
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2">
+                    <span
+                      class="badge bg-light text-dark px-3 py-1 rounded-pill"
+                      >Development</span
+                    >
+                    <span class="text-success fw-bold">$180.00</span>
+                  </div>
+                  <h5 class="fw-bold mb-3">HTML,CSS,and Beyond</h5>
+                  <div class="d-flex justify-content-between text-muted small">
+                    <p>4hr 35min</p>
+                    <p>40 lectures</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- course 5  -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 rounded-4 shadow-sm h-100">
+                <img
+                  src="All images/cr5.png"
+                  class="card-img-top rounded-top-4"
+                  alt="Course 5" />
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2">
+                    <span
+                      class="badge bg-light text-dark px-3 py-1 rounded-pill"
+                      >UI/UX Design</span
+                    >
+                    <span class="text-success fw-bold">$160.00</span>
+                  </div>
+                  <h5 class="fw-bold mb-3">UI/UX Essentials for Engaging</h5>
+                  <div class="d-flex justify-content-between text-muted small">
+                    <p>3hr 35min</p>
+                    <p>25 lectures</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- course 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 rounded-4 shadow-sm h-100">
+                <img
+                  src="All images/cr6.png"
+                  class="card-img-top rounded-top-4"
+                  alt="Course 6" />
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2">
+                    <span
+                      class="badge bg-light text-dark px-3 py-1 rounded-pill"
+                      >Development</span
+                    >
+                    <span class="text-success fw-bold">$160.00</span>
+                  </div>
+                  <h5 class="fw-bold mb-3">Effevtive Stakeholder Engagement</h5>
+                  <div class="d-flex justify-content-between text-muted small">
+                    <p>2hr 35min</p>
+                    <p>20 lectures</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- view more courses  -->
+          <div class="text-center">
+            <a href="#" class="btn btn-template mt-5"> View More courses → </a>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- end of courses section -->
+
+    <!-- Join us -->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="join-banner">
+            <h1 class="main-heading">Join Driven Professionals & Launch</h1>
+            <h2 class="sub-heading">Your Dream Career Today!</h2>
+            <p class="benefits">
+              Connect with a network of driven professionals, gain valuable
+              insights, and access.
+            </p>
+            <button class="join-btn btn">Join With Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
